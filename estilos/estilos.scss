@@ -1,0 +1,16 @@
+// Colores
+$principal: #e00000;
+
+
+
+// Variables Boostrap
+$primary: $principal;
+$enable-shadows: true;
+$enable-gradients: true;
+
+
+@import './../libs/boostrap/scss/bootstrap.scss';
+
+.btn-primary{
+    border-bottom: 5px, solid;
+}
